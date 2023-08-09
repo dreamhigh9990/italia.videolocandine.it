@@ -1,0 +1,12 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import 'variables';
+@import '~vuetify/dist/vuetify.min.css';
+.page {
+	width: 100%;
+	margin: 20px 0px;
+}
+.no-group{
+	background-color: #FF3D00 !important;
+	color: white !important;
+}

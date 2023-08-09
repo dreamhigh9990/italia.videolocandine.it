@@ -1,0 +1,234 @@
+{
+	"app_name": "Media Manager",
+	"sidebar": {
+		"realtime": "Real Time",
+		"campaign": "Campaigns",
+		"media": "Media",
+		"poster": "Poster Shops",
+		"printer": "Prints",
+		"print_create": "Print Create",
+		"print_edit": "Print Edit",
+		"rooms": "Show monitors",
+		"sponsor": "Sponsor",
+		"settings": "Settings",
+		"users": "Users",
+		"group": "Display Groups",
+		"monitor": "Displays",
+		"shop": "Stores",
+		"videos": "Scheduled Videos",
+		"images": "Scheduled images",
+		"scheduled_posters": "Scheduled Poster Shops",
+		"scheduled_printers": "Scheduled Printer Shops",
+		"canvas": "Canvas"
+	},
+	"buttons": {
+		"add_new": "Add New",
+		"save": "Save",
+		"cancel": "Cancel",
+		"create": "Create",
+		"choose_files": "Choose Files",
+		"close": "Close",
+		"download": "Download",
+		"print": "PRINT",
+		"delete": "Delete",
+		"campaign_date_change": "Massive update of dates, times and days"
+	},
+	"labels": {
+		"today": "today",
+
+		"select_all": "Select All",
+		"all": "All",
+		"start_date": "Start Date",
+		"end_date": "End Date",
+		"start_time": "Start Time",
+		"end_time": "End Time",
+		"sponsor": "Sponsor",
+		"days": "Days",
+		"actions": "Actions",
+		"delete_confirm": "Are you sure you want to delete this item?",
+		"media": "Media",
+		"new_files": "New Files",
+		"add_new_files": "Add New Files",
+		
+		"name_required": "Name is required",
+		"password_required": "Password is required",
+		"email_required": "Email is required",
+		"fullname_required": "Fullname is required",
+		
+		"day_required": "Day is required",
+		"start_date_required": "Start date is required",
+		"end_date_required": "End date is required",
+		"edit_media": "Edit Media",
+		"no_group": "Assign the monitors",
+		"monitors": "Monitors",
+		"monitor": "Monitor",
+		"no_monitor": "Assign at least a monitor",
+		"original": "Original Name",
+		"poster": "Poster",
+		"select": "Select",
+		"poster_select": "Choose what to upload",
+		"upload_template": "Load Template",
+		"upload_poster": "Load Poster Shop",
+		"schedule": "Schedule",
+		"published": "Published",
+		"create": "Create",
+		"publish": "Publish",
+		"add_text": "Add Text",
+		"font_family": "Font Family",
+		"edit_poster": "Edit Poster",
+		"add_image": "Add Image",
+		"no_media_scheduled": "No media scheduled in this moment",
+		"no_data_available": "No data available",
+		"loading_items": "Caricamento in corso...",
+		"no_days": "Selext at least a day of the week",
+		"no_type_match": "One or more files are without -FLL or -CTF at the end of the filename and I can't import them",
+		"redundancy_description": "Show this video/image in case that no one media is being planned for this monitor",
+		"no_data": "Nessun dato",
+		"search": "Search",
+
+		"logged_in_as": "You are logged in as: ",
+		"logout": "Log out",
+		"settings": "Settings",
+		"profile": "Profile",
+		"change_password": "Change Password",
+
+		"items_per_page": "Items per page",
+		"no_framerate_match": "The file named FILENAME is not being saved, because the system accept only videos with 25 fps (frame per second) ",
+		"filter_by_group": "Filter by group",
+		
+		"show_monitor_list": "Show monitor list",
+		"manage_monitor_by_group": "Manage monitor by group of monitors",
+		"monitor_list": "Monitor List",
+		"monitor_list_alert": "Switching the management of monitors from <strong>'managed in lists divided by stores'</strong> to <strong>'groups of personalized monitors'</strong>, involves the reset of the media assigned to the monitors, so it will be necessary to reassign all the media to their monitors. Instead, everything remains the same if you change from <strong>'custom monitor groups'</strong> to <strong>'monitors managed in lists divided by stores'</strong>.",
+
+		"updated_successfully": "Updated Successfully"
+	},
+	"campaign": {
+		"title": "Campaign",
+		"fields": {
+			"campaigns": "Campaigns",
+			"edit": "Edit Campaign",
+			"create": "Create Campaign",
+			"name": "Campaign",
+			"start_date": "Start Date",
+			"end_date": "End Date",
+			"start_time": "Start Time",
+			"end_time": "End Time",
+			"description": "Description",
+			"sponsor": "Sponsor",
+			"days": "Days",
+			"videos": "Videos",
+			"images": "Images",
+			"alert": "Saving here, all the media of this campaign will apply these data."
+		}
+	},
+	"users": {
+		"title": "Users",
+		"fields": {
+			"user": "User",
+			"edit": "Edit User",
+			"create": "Create User",
+			"fullname": "Full Name",
+			"username": "User Name",
+			"email": "Email",
+			"name": "Name",
+			"role": "Role",
+			"original_password": "Original Password",
+			"new_password": "New Password",
+			"password_confirm": "Confirm Password"
+		}
+	},
+	"groups": {
+		"title": "Groups assigned to this video",
+		"fields": {
+			"create": "New Group",
+			"edit": "Edit Group",
+			"groups": "Groups",
+			"groupname": "Group Name",
+			"aspectratio": "Aspect Ratio",
+			"grouptype": "Group Type",
+			"description": "Description",
+			"delete_confirm": "Are you sure you delete this group?"
+		}
+	},
+	"monitors": {
+		"title": "Monitor",
+		"fields": {
+			"create": "New Group",
+			"edit": "Edit Group",
+			"id": "ID",
+			"name": "Name",
+			"shop": "Shop",
+			"aspectratio": "Aspect Ratio",
+			"location": "Location",
+			"type": "Type",
+			"rotation": "Rotation",
+			"delete_confirm": "Are you sure you delete this monitor?",
+			"groups": "Groups",
+			"added_successfully": "Added successfully",
+			"updated_successfully": "Updated successfully"
+		}
+	},
+	"videos": {
+		"search": "Cerca",
+		"title": "Videos",
+		"fields": {
+			"video": "Video File",
+			"edit": "Edit Video",
+			"size": "Size(MB)",
+			"duration": "Duration(s)",
+			"groups": "Groups",
+			"start_time": "Start Time",
+			"end_time": "End Time",
+			"campaign": "Campaign",
+			"file_name": "File Name",
+			"type": "Type",
+			"delete_confirm": "Are you sure you delete this video?",
+			"time_filter": "Time Filter",
+			"today": "Today"
+		}
+	},
+	"images": {
+		"title": "Images",
+		"fields": {
+			"choose_image": "Choose Images",
+			"size": "Size(MB)",
+			"duration": "Duration(s)",
+			"groups": "Groups",
+			"type": "Type",
+			"image_edit": "Edit Image"
+		}
+	},
+	"shops": {
+		"title": "Shops",
+		"fields": {
+			"shop": "Shop",
+			"create": "Create Shop",
+			"edit": "Edit Shop",
+			"name": "Name",
+			"description": "Description",
+			"delete_confirm": "Are you sure you delete this shop?",
+			"opening_time": "Opening Time"
+		}
+	},
+	"poster": {
+		"load_picture": "Load Picture",
+		"add_pictures": "ADD PRODUCT PICTURES",
+		"product_photos": "Product Photos",
+		"layers": "Layers"
+	},
+	"super_admin": {
+		"user_settings": "User settings",
+		"user_fonts": "User Fonts",
+		"formats": "Formats",
+		"add_format": "Add format",
+		"uploading_format": "Uploading Format",
+		"updated_success": "Updated Successfully",
+		"printers": "Printers"
+	},
+	"footer": {
+		"item1": "MAINSON HAP SRL. Via Alessandro Manzoni 42 Carpi (MO) 41012 . Italy",
+		"item2": "V.A.T. IT03680650367 . REA number (Index of Economic and Administrative Information) MO 408530 Certified Email maisonhapsrl@legalmail.it . All rights reserved 2019"
+	}
+
+}
